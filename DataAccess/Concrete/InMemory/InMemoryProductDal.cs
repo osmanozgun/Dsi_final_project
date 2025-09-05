@@ -38,6 +38,11 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
+        public Product Get(Expression<Func<Product, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Product> GetAll()
         {
             return _products;
@@ -51,6 +56,11 @@ namespace DataAccess.Concrete.InMemory
         public List<Product> getAllByCategory(int categoryId)
         {
             return _products.Where(p=>p.CategoryId == categoryId).ToList();
+        }
+
+        public List<Product> GetAllByCategory(int categoryId)
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Product product)
