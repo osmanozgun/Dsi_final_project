@@ -8,3 +8,7 @@ C:\Users\bohoz\source\repos\FinalProject\Entities\obj\Debug\netcoreapp3.1\Entiti
 C:\Users\bohoz\source\repos\FinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\bohoz\source\repos\FinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\bohoz\source\repos\FinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.sourcelink.json
+C:\Users\bohoz\source\repos\FinalProject\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\bohoz\source\repos\FinalProject\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\bohoz\source\repos\FinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\bohoz\source\repos\FinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.Up2Date

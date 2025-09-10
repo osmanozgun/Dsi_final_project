@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{5DAEF17E-D217-4E10-B5DE-3135FD0B786D}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{1B653129-8114-4858-A3F1-1B3EFACC998E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{D6D4D67D-E06A-4814-8E90-8F9A76D48648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D6D4D67D-E06A-4814-8E90-8F9A76D48648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D4D67D-E06A-4814-8E90-8F9A76D48648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D4D67D-E06A-4814-8E90-8F9A76D48648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

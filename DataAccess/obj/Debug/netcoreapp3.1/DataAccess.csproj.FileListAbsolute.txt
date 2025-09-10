@@ -12,3 +12,5 @@ C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Debug\netcoreapp3.1\Data
 C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.sourcelink.json
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb
