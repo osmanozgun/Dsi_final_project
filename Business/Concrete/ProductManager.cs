@@ -1,14 +1,21 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Net.Http.Headers;
 using System.Text;
+using ValidationException = FluentValidation.ValidationException;
 
 namespace Business.Concrete
 {
@@ -21,21 +28,25 @@ namespace Business.Concrete
         {
             _ProductDal = productDal;
         }
+        // busines code 
+        // iş kuralları burda 
+        //--------------------------------
+        // validation ////// yapısal olarak uygun olup
+        // olmadıgnı kontrol etmeye denir örneğin
+        // şifre su olmalı su kadar karakter su şartları
+        // sağlamalı gibi kurallar dogrulamaya girer
 
+
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            if (product.ProductName.Length <2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
-            //burada şarlar yazılır eğer şunlar geçerli ise alltaki satırı çalıştır ve ekle
             _ProductDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
         }
 
         public IDataResult<List<Product>> GetAll()
         {
-            if(DateTime.Now.Hour==22)
+            if(DateTime.Now.Hour==23)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
@@ -61,7 +72,7 @@ namespace Business.Concrete
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            if (DateTime.Now.Hour == 01)
+            if (DateTime.Now.Hour == 23)
             {
                 return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
             }

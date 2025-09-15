@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6D4D67D-E06A-4814-8E90-8F9A76D48648}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6D4D67D-E06A-4814-8E90-8F9A76D48648}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8125DFD7-D6E8-452D-B3F3-72D3EC4C11E5}|WebAPI\\WebAPI.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125DFD7-D6E8-452D-B3F3-72D3EC4C11E5}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8125DFD7-D6E8-452D-B3F3-72D3EC4C11E5}|WebAPI\\WebAPI.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125DFD7-D6E8-452D-B3F3-72D3EC4C11E5}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Abstract\\IProductService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Abstract\\IProductService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs*",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:18:43.807Z",
+              "WhenOpened": "2025-09-15T14:35:02.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationAspect.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeToolTip": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T14:20:48.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Constants\\Messages.cs",
-              "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Constants\\Messages.cs",
-              "RelativeToolTip": "Business\\Constants\\Messages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:13:49.033Z",
+              "WhenOpened": "2025-09-15T12:22:57.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\ConsoleUI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\ConsoleUI\\Program.cs",
-              "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAAyAAAAAAAAAA==",
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:11:11.247Z",
+              "WhenOpened": "2025-09-14T16:34:08.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\ProductManager.cs*",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowD8AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\WebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:10:56.831Z",
+              "WhenOpened": "2025-09-14T12:02:01.751Z",
               "EditorCaption": ""
             }
           ]
