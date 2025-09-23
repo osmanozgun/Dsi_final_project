@@ -37,7 +37,9 @@ namespace Core.DataAccess.EntityFramework
         {
             using (Tcontext context = new Tcontext())
             {
-                return context.Set<TEntity>().SingleOrDefault(filter);
+                var set = context.Set<TEntity>();
+                var count = set.Count(); // Burada hata alıyor musun?
+                return set.SingleOrDefault(filter);
             }
         }
 

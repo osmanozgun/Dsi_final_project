@@ -1,6 +1,7 @@
 C:\Users\bohoz\source\repos\FinalProject\Core\bin\Debug\netcoreapp3.1\Core.deps.json
 C:\Users\bohoz\source\repos\FinalProject\Core\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\bohoz\source\repos\FinalProject\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
 C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
 C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
@@ -8,4 +9,3 @@ C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.cspro
 C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.sourcelink.json
 C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.pdb
-C:\Users\bohoz\source\repos\FinalProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache

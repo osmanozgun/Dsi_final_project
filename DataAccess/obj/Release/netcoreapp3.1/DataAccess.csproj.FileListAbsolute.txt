@@ -1,0 +1,6 @@
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Release\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Release\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Release\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Release\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Release\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\bohoz\source\repos\FinalProject\DataAccess\obj\Release\netcoreapp3.1\DataAccess.sourcelink.json

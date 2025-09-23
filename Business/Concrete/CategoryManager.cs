@@ -12,7 +12,7 @@ namespace Business.Concrete
     public class CategoryManager : ICategoryService
     {
         ICategoryDal _categoryDal;
-        private EfCategoryDal efCategoryDal;
+        
         public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
