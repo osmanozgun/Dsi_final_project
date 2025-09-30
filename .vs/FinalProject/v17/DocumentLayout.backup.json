@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\aspects\\autofac\\transaction\\transactionscopeaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\transaction\\transactionscopeaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\aspects\\autofac\\caching\\cacheaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\caching\\cacheaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\aspects\\autofac\\caching\\cacheremoveaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\caching\\cacheremoveaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\crosscuttingconcerns\\caching\\microsoft\\memorycachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\caching\\microsoft\\memorycachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\crosscuttingconcerns\\caching\\icachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\caching\\icachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\dependencyresolvers\\coremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,97 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionScopeAspect.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Transaction\\TransactionScopeAspect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T23:31:56.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CacheRemoveAspect.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Caching\\CacheRemoveAspect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T23:14:12.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CacheAspect.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "RelativeToolTip": "Core\\Aspects\\Autofac\\Caching\\CacheAspect.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T22:57:51.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CoreModule.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\DependencyResolvers\\CoreModule.cs",
-              "RelativeDocumentMoniker": "Core\\DependencyResolvers\\CoreModule.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\DependencyResolvers\\CoreModule.cs",
-              "RelativeToolTip": "Core\\DependencyResolvers\\CoreModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T22:10:27.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MemoryCacheManager.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Caching\\Microsoft\\MemoryCacheManager.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwC4AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T19:32:54.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICacheManager.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Caching\\ICacheManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T19:22:04.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAAwIQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T18:58:35.203Z",
-              "EditorCaption": ""
             }
           ]
         }

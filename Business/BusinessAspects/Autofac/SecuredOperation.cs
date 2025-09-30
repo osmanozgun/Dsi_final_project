@@ -27,7 +27,7 @@ namespace Business.BusinessAspect.Autofac
         protected override void OnBefore(IInvocation invocation)
         {
             // ClaimsPrincipalExtensions kullanılarak roller alınır
-            var roleClaims = _httpContextAccessor.HttpContext.User.ClaimRoles() ?? new List<string>();
+            var roleClaims = _httpContextAccessor.HttpContext.User.ClaimRoles();
 
             foreach (var role in _roles)
             {

@@ -14,6 +14,7 @@ using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTOs;
 using FluentValidation;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Internal;
 using System;
 using System.Collections.Generic;
@@ -49,7 +50,7 @@ namespace Business.Concrete
 
         //[SecuredOperation("product.add,admin")]
         [ValidationAspect(typeof(ProductValidator))]
-        [CacheRemoveAspect("IProductService.Get")]
+        //[CacheRemoveAspect("IProductService.Get")]
 
         public IResult Add(Product product)
         {
@@ -99,7 +100,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_ProductDal.GetProductDetails());
         }
         [ValidationAspect(typeof(ProductValidator))]
-        [CacheRemoveAspect("IProductService.Get")]
+        //[CacheRemoveAspect("IProductService.Get")]
         public IResult Update(Product product)
         {
             CheckCategoryofProductCount(product.CategoryId);
@@ -109,7 +110,7 @@ namespace Business.Concrete
         {
             var sayi = _ProductDal.GetAll(p => p.CategoryId == categoryId).Count;
 
-            if (sayi >= 10)
+            if (sayi >= 15)
             {
                 return new ErrorResult(Messages.CategoryCountError);
             }
@@ -135,10 +136,12 @@ namespace Business.Concrete
             }
             return new SuccessResult();
         }
-        //[TransactionScopeAspect]
-        
 
+        public IDataResult<List<Product>> GetByCategory()
+        {
+            throw new NotImplementedException();
+        }
 
-
+   
     }
 }
