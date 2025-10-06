@@ -20,7 +20,6 @@ namespace Core.DataAccess.EntityFramework
                 addedEntity.State = EntityState.Added;
                 context.SaveChanges();
             }
-
         }
 
         public void Delete(TEntity entity)
@@ -38,7 +37,7 @@ namespace Core.DataAccess.EntityFramework
             using (Tcontext context = new Tcontext())
             {
                 var set = context.Set<TEntity>();
-                var count = set.Count(); // Burada hata alıyor musun?
+                var count = set.Count(); 
                 return set.SingleOrDefault(filter);
             }
         }
@@ -48,10 +47,12 @@ namespace Core.DataAccess.EntityFramework
             using (Tcontext context = new Tcontext())
             {
                 return filter == null
-                    ? context.Set<TEntity>().ToList()
+                    ? context.Set<TEntity>().ToList()       
                     : context.Set<TEntity>().Where(filter).ToList();
+
             }
         }
+
 
 
         public void Update(TEntity entity)

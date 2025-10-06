@@ -17,6 +17,6 @@ namespace Business.Abstract
         IResult Add(Product product);
         IResult Update(Product product);
         IDataResult<List<Product>> GetByCategory();
-        
+        IResult Delete(Product product);
     }
 }

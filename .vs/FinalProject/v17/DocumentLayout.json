@@ -1,7 +1,23 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8125DFD7-D6E8-452D-B3F3-72D3EC4C11E5}|WebAPI\\WebAPI.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125DFD7-D6E8-452D-B3F3-72D3EC4C11E5}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0FD25D7-FBDB-4138-9D3F-7BDCB359A117}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|c:\\users\\bohoz\\source\\repos\\finalproject\\core\\entities\\concrete\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E901EBC3-9263-4AF5-B74E-BDBFD65637B5}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/databaseticaret/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +34,55 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/databaseticaret/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-06T21:46:01.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Entities\\Concrete\\Users.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\Users.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Core\\Entities\\Concrete\\Users.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\Users.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:49:07.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:21:31.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\bohoz\\source\\repos\\FinalProject\\WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:44:58.276Z",
+              "EditorCaption": ""
             }
           ]
         }

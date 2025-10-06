@@ -57,9 +57,6 @@ namespace Business.Concrete
             IResult result = BusinessRules.Run(CheckCategoryofProductCount(product.CategoryId),
                  PrimaryProductName(product.ProductName), CategoryLimit());
 
-
-
-
             if (result != null)
             {
                 return result;
@@ -67,13 +64,13 @@ namespace Business.Concrete
             _ProductDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
         }
-        [CacheAspect]
+        //[CacheAspect]
         public IDataResult<List<Product>> GetAll()
         {
-            if (DateTime.Now.Hour == 23)
-            {
-                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
-            }
+            //if (DateTime.Now.Hour == 23)
+            //{
+            //    return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            //}
             return new SuccessDataResult<List<Product>>(_ProductDal.GetAll(), Messages.ProductsListed);
         }
 
@@ -81,7 +78,7 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Product>>(_ProductDal.GetAll(p => p.CategoryId == id));
         }
-        [CacheAspect]
+        //[CacheAspect]
         public IDataResult<Product> GetById(int productid)
         {
             return new SuccessDataResult<Product>(_ProductDal.Get(p => p.ProductId == productid));
@@ -93,19 +90,15 @@ namespace Business.Concrete
         }
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            if (DateTime.Now.Hour == 23)
-            {
-                return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
-            }
+            //if (DateTime.Now.Hour == 23)
+            //{
+            //    return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
+            //}
             return new SuccessDataResult<List<ProductDetailDto>>(_ProductDal.GetProductDetails());
         }
         [ValidationAspect(typeof(ProductValidator))]
         //[CacheRemoveAspect("IProductService.Get")]
-        public IResult Update(Product product)
-        {
-            CheckCategoryofProductCount(product.CategoryId);
-            return new SuccessDataResult<Product>(product);
-        }
+        
         private IResult CheckCategoryofProductCount(int categoryId)
         {
             var sayi = _ProductDal.GetAll(p => p.CategoryId == categoryId).Count;
@@ -142,6 +135,15 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-   
+        public IResult Delete(Product product)
+        {
+            _ProductDal.Delete(product);
+            return new SuccessResult("Ürün Silindi");
+        }
+        public IResult Update(Product product)
+        {
+            _ProductDal.Update(product);
+            return new SuccessResult("Ürün Güncellendi");
+        }
     }
 }

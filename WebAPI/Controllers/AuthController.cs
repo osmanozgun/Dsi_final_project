@@ -23,11 +23,19 @@ namespace WebAPI.Controllers
             {
                 return BadRequest(userToLogin.Message);
             }
-
+            
             var result = _authService.CreateAccessToken(userToLogin.Data);
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(new
+                {
+                    userToLogin.Data.FirstName,
+                    userToLogin.Data.Lastname,
+                    userToLogin.Data.Email,
+                    userToLogin.Data.adminpermission,
+                    result.Data.Token,
+                    result.Data.Expiration
+                });
             }
 
             return BadRequest(result.Message);

@@ -5,6 +5,7 @@ using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
@@ -17,12 +18,16 @@ namespace Business.Concrete
         {
             _categoryDal = categoryDal;
         }
-        
+
 
         public IDataResult<List<Category>> GetAll()
         {
-            return new SuccessDataResult<List<Category>>(_categoryDal.GetAll());
+            var categories = _categoryDal.GetAll()
+                                         .OrderBy(c => c.CategoryId)  // ID'ye göre artan sıralama
+                                         .ToList();
+            return new SuccessDataResult<List<Category>>(categories);
         }
+
 
         public IDataResult<Category> GetById(int CategoryId)
         {
